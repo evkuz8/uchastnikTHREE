@@ -57,6 +57,7 @@ namespace test
             StreamReader srcol = new StreamReader("C:/кладовка/testzone/2.txt");
             string col = "";
             int maxcol = 0;
+            //
             while (!srcol.EndOfStream)
             {
                 col = srcol.ReadLine();
